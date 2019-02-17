@@ -7,6 +7,9 @@ Hironobu-Kawaguchi
 
     学習済みモデル(torchvison.models)を使って、画像分類(ImageNet 1000class)
 
+    ![Real Images](image/ffhq_dcgan_real.png)    ![Fake Images](image/ffhq_dcgan_fake.png)
+
+
     公式Doc https://pytorch.org/docs/stable/torchvision/models.html
 
 - ffhq_dcgan_20190218.ipynb
