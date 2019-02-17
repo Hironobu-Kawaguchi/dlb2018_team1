@@ -7,6 +7,9 @@ Hironobu-Kawaguchi
 
 学習済みモデル(torchvison.models)を使って、画像分類(ImageNet 1000class)
 
+https://pytorch.org/docs/stable/torchvision/models.html
+
+
 - ffhq_DRAW_20190216.ipynb
 
 ffhq_128x128datasetをDRAWで学習させてようとしてMemory Errorになった処理(batch_size=64)
