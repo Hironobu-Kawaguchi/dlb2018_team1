@@ -5,7 +5,7 @@ Hironobu-Kawaguchi
 
 - torchvision_models_predict.ipynb
 
-学習済みモデル(torchvison.models)を使って、画像分類(ImageNet 1000class)
+    学習済みモデル(torchvison.models)を使って、画像分類(ImageNet 1000class)
 
     公式Doc https://pytorch.org/docs/stable/torchvision/models.html
 
