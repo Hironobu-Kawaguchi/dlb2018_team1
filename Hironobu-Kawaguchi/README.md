@@ -16,6 +16,7 @@ Hironobu-Kawaguchi
     元ソース https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
 
     ![DCGAN Images](image/ffhq_dcgan.png)
+    ![DCGAN loss](image/ffhq_dcgan_loss.png)
 
 - ffhq_DRAW_20190216.ipynb
 
