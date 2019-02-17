@@ -7,9 +7,6 @@ Hironobu-Kawaguchi
 
     学習済みモデル(torchvison.models)を使って、画像分類(ImageNet 1000class)
 
-    ![DCGAN Images](image/ffhq_dcgan.png)
-
-
     公式Doc https://pytorch.org/docs/stable/torchvision/models.html
 
 - ffhq_dcgan_20190218.ipynb
@@ -17,6 +14,8 @@ Hironobu-Kawaguchi
     ffhq_128x128datasetを使って、DCGAN
 
     元ソース https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
+
+    ![DCGAN Images](image/ffhq_dcgan.png)
 
 - ffhq_DRAW_20190216.ipynb
 
