@@ -3,7 +3,10 @@ Deep Learning Basics 2018 Team1
 
 Hironobu-Kawaguchi
 
-- ffhq_DRAW_20190216.ipynb ffhq_128x128datasetをDRAWで学習させてようとしてMemory Errorになった処理(batch_size=64)
+- ffhq_DRAW_20190216.ipynb
+ffhq_128x128datasetをDRAWで学習させてようとしてMemory Errorになった処理(batch_size=64)
+[ffhq_128x128dataset]!(image/output_11_1.png) [batch_size=64の最後のoutput]!(image/output_25_2568.png)
 batch_size=16もMemory Errorになったが、jpynbファイルが131MBあるので、upしません。
+[batch_size=16の最後のoutput]!(image/output_29_10.png)
 
 - [ffhq-dataset 128x128 70,000枚(ZIP)](https://1drv.ms/u/s!AvHteFLdGh-Dk6ADkTBKk1ngn7unDw)
