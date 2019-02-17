@@ -11,7 +11,9 @@ ffhq_128x128datasetをDRAWで学習させてようとしてMemory Errorになっ
 
 ![batch_size=64の最後のoutput](image/output_29_10.png)batch_size=64の最後のoutput
 
-batch_size=16もMemory Errorになったが、jpynbファイルが131MBあるので、upしません。
+- ffhq_DRAW_20190216.ipynb
+
+ffhq_128x128datasetをDRAWで学習させてようとしてMemory Errorになった処理(batch_size=16)
 
 ![batch_size=16の最後のoutput](image/output_25_2568.png)batch_size=16の最後のoutput
 
