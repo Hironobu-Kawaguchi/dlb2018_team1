@@ -22,7 +22,7 @@ Hironobu-Kawaguchi
 
     ffhq_128x128datasetをGrayScaleにしてDRAWで学習
 
-    ![ffhq_128x128dataset](ffhq_DRAW_20190218_original.png)ffhq_128x128dataset
+    ![ffhq_128x128dataset](image/ffhq_DRAW_20190218_original.png)ffhq_128x128dataset
 
     ![ffhq_DRAW_20190218_result05.png](image/ffhq_DRAW_20190218_result05.png)       ![ffhq_DRAW_20190218_result08.png](image/ffhq_DRAW_20190218_result08.png)
         ![ffhq_DRAW_20190218_result10.png](image/ffhq_DRAW_20190218_result10.png)
