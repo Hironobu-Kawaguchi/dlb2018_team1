@@ -9,6 +9,14 @@ Hironobu-Kawaguchi
 
     公式Doc https://pytorch.org/docs/stable/torchvision/models.html
 
+- torchvision_models_predict_dataloader.ipynb
+
+    学習済みモデル(torchvison.models)を使って、画像分類(ImageNet 1000class)
+
+    ffhq_1024x1024dataset 7万枚を、dataloaderを使って分類、GPUにも対応
+
+    上位は、かつら、ネクタイ、バンドエイド、スーツ、シートベルトなど
+
 - ffhq_dcgan_20190218.ipynb
 
     ffhq_128x128datasetを使って、DCGAN
