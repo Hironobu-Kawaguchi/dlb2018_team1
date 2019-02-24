@@ -49,7 +49,7 @@ Hironobu-Kawaguchi
 
     ![StarGAN Result](image/hkstargan-1-images.jpg)
 
-- torchvision_models_predict.ipynb
+- torchvision_models_predict.ipynb[torchvision_models_predict.ipynb]
 
     学習済みモデル(torchvison.models)を使って、画像分類(ImageNet 1000class)
 
