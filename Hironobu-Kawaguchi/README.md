@@ -12,8 +12,10 @@ Hironobu-Kawaguchi
     ```
 
     styleganフォルダで下記を実行(Jupyter NotebookでもOK)
+
     src_seeds: 横の5人のrandom.seed（元から変えてます）
-    dst_seeds:縦の4人のrandom.seed（元のままです）
+
+    dst_seeds:縦の6人のrandom.seed（元のままです）
     ``` python
     import os
     from generate_figures import *
