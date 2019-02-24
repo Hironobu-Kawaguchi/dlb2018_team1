@@ -12,10 +12,8 @@ Hironobu-Kawaguchi
     ```
 
     styleganフォルダで下記を実行(Jupyter NotebookでもOK)
+    論文(http://stylegan.xyz/paper)のFigure 3と同じ処理ですが、src_seeds（横の5人のrandom.seed）を変え、dst_seeds（縦の6人のrandom.seed）は論文と同じにしています。
 
-    src_seeds: 横の5人のrandom.seed（元から変えてます）
-
-    dst_seeds:縦の6人のrandom.seed（元のままです）
     ``` python
     import os
     from generate_figures import *
