@@ -7,9 +7,11 @@ Hironobu-Kawaguchi
 
     StyleGAN Style Mixing
 
-    $git clone https://github.com/NVlabs/stylegan$
+    ```
+    git clone https://github.com/NVlabs/stylegan
+    ```
 
-    ''' python
+    ``` python
     import os
     from generate_figures import *
 
@@ -26,7 +28,9 @@ Hironobu-Kawaguchi
 
     CelabAを使ってStarGAN
 
-    $git clone https://github.com/yunjey/StarGAN$
+    ```
+    git clone https://github.com/yunjey/StarGAN
+    ```
 
     ![StarGAN Result](image/hkstargan-1-images.jpg)
 
