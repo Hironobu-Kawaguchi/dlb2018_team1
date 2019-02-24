@@ -11,6 +11,7 @@ Hironobu-Kawaguchi
     git clone https://github.com/NVlabs/stylegan
     ```
 
+    styleganフォルダで下記を実行(Jupyter NotebookでもOK)
     ``` python
     import os
     from generate_figures import *
@@ -30,6 +31,16 @@ Hironobu-Kawaguchi
 
     ```
     git clone https://github.com/yunjey/StarGAN
+    ```
+
+    学習済みモデル(celeba 256)を入れて、Anaconda Promptで下記を実行(batchfile にして実行がGood)  
+    ``` DOS
+    python main.py --mode test --dataset CelebA --image_size 256 --c_dim 5 ^
+                 --celeba_image_dir E:/data/CelebA/Img/img_align_celeba/img_align_celeba/ ^
+                 --attr_path E:/data/CelebA/Anno/list_attr_celeba.txt ^
+                 --selected_attrs Black_Hair Blond_Hair Brown_Hair Male Young ^
+                 --model_save_dir stargan_celeba_256/models/ ^
+                 --result_dir stargan_celeba_256/results/
     ```
 
     ![StarGAN Result](image/hkstargan-1-images.jpg)
