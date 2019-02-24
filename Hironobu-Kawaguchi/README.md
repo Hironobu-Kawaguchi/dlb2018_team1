@@ -12,6 +12,8 @@ Hironobu-Kawaguchi
     ```
 
     styleganフォルダで下記を実行(Jupyter NotebookでもOK)
+    src_seeds: 横の5人のrandom.seed（元から変えてます）
+    dst_seeds:縦の4人のrandom.seed（元のままです）
     ``` python
     import os
     from generate_figures import *
@@ -33,8 +35,8 @@ Hironobu-Kawaguchi
     git clone https://github.com/yunjey/StarGAN
     ```
 
-    学習済みモデル(celeba 256)を入れて、Anaconda Promptで下記を実行(batchfile にして実行がGood)  
-    ``` DOS
+    学習済みモデル(celeba 256)を入れて、Anaconda Promptで下記を実行(Windows環境、batchfile にして実行がGood)  
+    ```
     python main.py --mode test --dataset CelebA --image_size 256 --c_dim 5 ^
                  --celeba_image_dir E:/data/CelebA/Img/img_align_celeba/img_align_celeba/ ^
                  --attr_path E:/data/CelebA/Anno/list_attr_celeba.txt ^
