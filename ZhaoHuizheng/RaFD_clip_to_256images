@@ -4,7 +4,7 @@
 
 
 data_root_RaFD = r"RaFDの感情別に分けられたファイルが全ておいてある層のフォルダ名"
-save_path = r"感情別のファイルの保存先となる8フォルダがある層のフォルダ名。"
+save_root_path = r"感情別のファイルの保存先となる8フォルダがある層のフォルダ名。"
 
 #正方形にする
 #不本意ながら少しデータ数は落とすことになった。
@@ -55,7 +55,7 @@ emos = glob.glob('*')
 
 for emo in emos:
     data_path = data_root_RaFD + emo
-    save_path = save_path + emo
+    save_path = save_root_path + emo
     os.chdir(data_path)
     pics = glob.glob('*.jpg') 
     pics = [s for s in pics if not "Rafd000" in s]
