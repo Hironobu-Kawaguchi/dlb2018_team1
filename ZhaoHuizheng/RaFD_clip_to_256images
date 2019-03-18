@@ -15,6 +15,26 @@ save_path = r"感情別のファイルの保存先となる8フォルダがあ�
 #w * (1 + scale)が255以下のものは、w * (1 + scale)が256になるようにした。
 
 
+import cv2
+import numpy as np
+import os
+import math
+import glob
+import random
+
+#おそらく全員Windowsユーザだと思うので、下記のようなものに近いと思います。
+#うまくいかない場合は、haarcascade_frontalface_default.xmlでPC内検索すればフォルダのPathが分かりますのでそれを下記に代入してください。
+face_cascade_path = r"C:\ProgramData\Anaconda3\Lib\site-packages\cv2\data\haarcascade_frontalface_default.xml"
+eye_cascade_path = r"C:\ProgramData\Anaconda3\Lib\site-packages\cv2\data\haarcascade_eye.xml"
+profile_path = r"C:\ProgramData\Anaconda3\Lib\site-packages\cv2\data\haarcascade_profileface.xml"
+
+
+face_cascade = cv2.CascadeClassifier(face_cascade_path)
+eye_cascade = cv2.CascadeClassifier(eye_cascade_path)
+profile_cascade = cv2.CascadeClassifier(profile_path)
+
+
+
 data_root_RaFD = data_root_RaFD
 
 
@@ -28,7 +48,7 @@ emos = glob.glob('*')
 #  'contemptuous',
 #  'disgusted',
 #  'fearful',
-#  'happy',
+#  'happiness',
 #  'neutral',
 #  'sad',
 #  'surprised']
