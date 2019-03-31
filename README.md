@@ -1,6 +1,8 @@
 # dlb2018_team1
 Deep Learning Basics 2018 Team1
 
+https://github.com/Ichinon/facialexp_conv
+
 概要：興味あるアイデアの実現性調査を以下の担当で実施
 
 担当：
